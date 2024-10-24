@@ -102,7 +102,7 @@ a.sidebar-link:hover {
 
 /* Screen size less than 768px */
 
-@media (max-width:368px) {
+@media (max-width:268px) {
 
     .sidebar-logo {
         margin-left: -264px;
