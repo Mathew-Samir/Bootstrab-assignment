@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #eee;
+    --secondary-color: #d2cfcf;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.form-control {
+    max-width: 300px;
+}
+
+.navbar .navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon-notification {
+    position: relative;
+}
+
+.icon-notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.View {
+    background: var(--primary-color);
+}
+
+.View:hover {
+    background: var(--secondary-color);
+}
+
+.export {
+    background: var(--primary-color);
+}
+
+.export:hover {
+    background: var(--secondary-color);
+}
+
+.search {
+    outline: none;
+}
+
+.offcanvas {
+    width: 250px;
+    background: #293042;
+    color: #eee;
+}
+
+.content {
+    transition: margin-left 0.3s ease;
+    /* Smooth transition */
+}
+
+.offcanvas.show .content {
+    margin-left: 250px;
+    /* Push main content when sidebar is open */
+}
+
+.offcanvas-body ul li {
+    list-style: none;
+}
+
+.activity {
+    list-style: none;
+}
